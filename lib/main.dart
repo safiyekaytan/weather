@@ -72,7 +72,7 @@ Future<dynamic> getLocationData() async {
 }
 
 Future<List<dynamic>> getWeather() async {
-  String apiKey = "8655f1b6f9329f29c5a130067027aaa6";
+  String apiKey = "apiKey";
   var locations = await getLocationData();
   var lati, longi;
   if (locations != null) {
