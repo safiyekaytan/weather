@@ -40,7 +40,7 @@ Future<dynamic> getLocationData() async {
   PermissionStatus _permissionGranted;
   LocationData _locationData;
 
-  //Location için servis ayakta mı?
+  //Servis?
   _serviceEnabled = await location.serviceEnabled();
   if (!_serviceEnabled) {
     _serviceEnabled = await location.requestService();
@@ -49,7 +49,7 @@ Future<dynamic> getLocationData() async {
     }
   }
 
-  //konum izni kontrolü
+  //Konum izni verildi mi?
   _permissionGranted = await location.hasPermission();
   if (_permissionGranted == PermissionStatus.denied) {
     _permissionGranted = await location.requestPermission();
@@ -59,7 +59,7 @@ Future<dynamic> getLocationData() async {
     }
   }
 
-  //izinler tamamsa
+  //Servis ve konum izni tamamsa
   _locationData = await location.getLocation();
   Map<String, dynamic> map = {};
   map["lat"] = _locationData.latitude;
