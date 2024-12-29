@@ -1,3 +1,5 @@
 # weather![ss1](https://user-images.githubusercontent.com/95499415/221625670-d263f81c-bd33-47cd-849f-373878c87d84.png)
 ![ss2](https://user-images.githubusercontent.com/95499415/221625678-ec41f094-d2c9-4f38-8120-18a7e457c9b2.png)
 ![ss3](https://user-images.githubusercontent.com/95499415/221625683-1c12249a-5772-42b7-b330-31ed34bcf568.png)
+![7a2079d2-5251-40ef-aa77-9c3b4ac747cf](https://github.com/user-attachments/assets/7049f70a-66bc-4506-80f1-ded48453d818)
+![17a669f1-fe9d-46b3-b37e-667fac6f66d7](https://github.com/user-attachments/assets/1755cabb-432e-4272-91b1-3cc67d5483a7)
